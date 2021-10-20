@@ -36,3 +36,15 @@ insert into Sinhvien values ('SV0004',N'Nguyễn Minh Tú','4/16/2001','Nam','60
 
  select Sinhvien.MaSV, Sinhvien.HotenSV,Sinhvien.Ngaysinh,Sinhvien.Gioitinh,Sinhvien.Hocbong,Lop.Tenlop from Sinhvien ,Lop where Sinhvien.Malop = Lop.Malop
  select Tenlop from Lop
+
+ --======================================
+  select * from SinhVien
+  select * from Lop
+
+
+
+ drop table Lop
+ drop table Sinhvien
+
+ select Sinhvien.MaSV, Sinhvien.HotenSV,Sinhvien.Ngaysinh,Sinhvien.Gioitinh,Sinhvien.Hocbong,Lop.Tenlop from Sinhvien ,Lop where Sinhvien.Malop = Lop.Malop
+ select Tenlop from Lop
