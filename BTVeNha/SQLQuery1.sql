@@ -8,7 +8,7 @@ create table Lop
 	Tenlop nvarchar(30) Not Null,
 	Siso int
 )
-create table Sinhvien
+create table Sinhvien 
 (
 	MaSV char(6) primary key,
 	HotenSV nvarchar(40),
